@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Potrerillos</title>
+    <!-- Agregar favicon -->
+    <link rel="icon" href="imagenes/turismo.ico">
+
+    <!-- Link a iconos -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Estilo CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header class="background">
+        <!-- Logo -->
+        <a href="#" class="logo"><i class='bx bx-landscape'></i> Travel</a>
+
+        <!-- Menu -->
+        <div class="menu">
+
+            <!-- Carrito de compras -->
+            <a href="#compras" class="btn"><i class='bx bx-cart-alt'></i></a>
+
+            <!-- Nav -->
+            <nav id="nav">
+                <!-- Cerrar Menu -->
+                <button class="cerrar-menu" id="cerrar"><i class='bx bx-x'></i></button>
+
+                <a href="#inicio" class="active">Inicio</a>
+                <a href="#excursiones">Excursiones</a>
+                <a href="#alojamientos">Alojamientos</a>
+                <a href="#contacto">Contacto</a>
+
+            </nav>
+
+            <!-- Menu Hamburguesa-->
+            <button class="abrir-menu" id="abrir"><i class='bx bx-menu'></i></button>
+
+        </div>
+
+    </header>
+
+    <!-- Sección Inicio -->
+    <main>
+        <section id="inicio">
+            <!-- Video Fondo de pantalla -->
+            <video muted autoplay loop>
+                <source src="imagenes/Inicio.mp4" type="video/mp4">
+            </video>
+
+            <div class="capa"></div>
+
+            <!-- Texto Inicio -->
+            <div class="texto-inicio">
+                <h1>Potrerillos, tu lugar en el mundo</h1>
+                <p>
+                    Potrerillos es una localidad ubicada sobre la cordillera de los Andes, en el departamento Luján de
+                    Cuyo
+                    de la provincia de Mendoza, Argentina. Se encuentra a 69 km de la ciudad de Mendoza y en pleno
+                    Corredor
+                    Andino se ubica el espejo de agua de Potrerillos, el que actualmente alcanza unas 1500 hectáreas de
+                    superficie con 7 km de largo y casi 1,5 de ancho máximo. La majestuosidad de este marco, sumada a la
+                    belleza del paisaje natural, el aire puro, el clima y el ambiente de montaña, redunda en un gran
+                    potencial turístico y recreativo a nivel internacional.
+                </p>
+                <a href="#cabanias" class="btn">Más información ↓</a>
+
+
+            </div>
+
+        </section>
+
+        <!-- Sección Excursiones -->
+        <section id="excursiones">
+
+            <!-- Titulo -->
+            <h2>Excursiones</h2>
+
+            <!-- Contenedor de todas las excursiones -->
+            <div class="contenedor-excursiones">
+
+                <!-- Excursión #1 -->
+                <div class="carta">
+
+                    <!-- Imagen y titulo excursión 1 -->
+
+                    <div class="cara frente">
+                        <img src="imagenes/excursion1.jpeg" alt="">
+                        <h8>Termas de Cacheuta</h8>
+                    </div>
+
+                    <!-- Texto excursión 1 -->
+
+                    <div class="cara dorso">
+
+                        <h9>Termas de Cacheuta</h9>
+                        <h9><i class='bx bx-alarm'></i>Duración: 4 horas</h9>
+                        <h9><i class='bx bxs-error'></i>Dificultad: Fácil</h9>
+                        <div class="link">
+                            <a href="#"> $10.000 </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Excursión #2 -->
+                <div class="carta">
+
+                    <!-- Imagen y titulo excursión 2 -->
+
+                    <div class="cara frente">
+                        <img src="imagenes/excursion2.jpeg" alt="">
+                        <h8>Rafting Potrerillos</h8>
+                    </div>
+
+                    <!-- Texto excursión 2 -->
+
+                    <div class="cara dorso">
+
+                        <h9>Rafting Potrerillos</h9>
+                        <h9><i class='bx bx-alarm'></i>Duración: 4 horas</h9>
+                        <h9><i class='bx bxs-error'></i>Dificultad: Media</h9>
+                        <div class="link">
+                            <a href="#"> $12.000 </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Excursión #3 -->
+                <div class="carta">
+
+                    <!-- Imagen y titulo excursión 3 -->
+
+                    <div class="cara frente">
+                        <img src="imagenes/excursion3.jpeg" alt="">
+                        <h8>Exc. Cañon del Atuel</h8>
+                    </div>
+
+                    <!-- Texto excursión 3 -->
+
+                    <div class="cara dorso">
+
+                        <h9>Exc. Cañon del Atuel</h9>
+                        <h9><i class='bx bx-alarm'></i>Duración: 13 horas</h9>
+                        <h9><i class='bx bxs-error'></i>Dificultad: Fácil</h9>
+                        <div class="link">
+                            <a href="#"> $21.000 </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Excursión #4 -->
+                <div class="carta">
+
+                    <!-- Imagen y titulo excursión 4 -->
+
+                    <div class="cara frente">
+                        <img src="imagenes/excursion4.jpeg" alt="">
+                        <h8>Arborismo en Bosque Cacheuta</h8>
+                    </div>
+
+                    <!-- Texto excursión 4 -->
+
+                    <div class="cara dorso">
+
+                        <h9>Arborismo en Bosque Cacheuta</h9>
+                        <h9><i class='bx bx-alarm'></i>Duración: 2 horas</h9>
+                        <h9><i class='bx bxs-error'></i>Dificultad: Fácil</h9>
+                        <div class="link">
+                            <a href="#"> $6.000 </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Excursión #5 -->
+                <div class="carta">
+
+                    <!-- Imagen y titulo excursión 5 -->
+
+                    <div class="cara frente">
+                        <img src="/imagenes/excursion5.png" alt="">
+                        <h8>Tirolina en Embalce Potrerillos</h8>
+                    </div>
+
+                    <!-- Texto excursión 5 -->
+
+                    <div class="cara dorso">
+
+                        <h9>Tirolina en Embalce Potrerillos</h9>
+                        <h9><i class='bx bx-alarm'></i>Duración: 4 horas 30 minutos</h9>
+                        <h9><i class='bx bxs-error'></i>Dificultad: Media</h9>
+                        <div class="link">
+                            <a href="#"> $15.000 </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Excursión #6 -->
+                <div class="carta">
+
+                    <!-- Imagen y titulo excursión 6 -->
+
+                    <div class="cara frente">
+                        <img src="imagenes/excursion6.png" alt="">
+                        <h8>Villavicencio</h8>
+                    </div>
+
+                    <!-- Texto excursión 6 -->
+
+                    <div class="cara dorso">
+
+                        <h9>Villavicencio</h9>
+                        <h9><i class='bx bx-alarm'></i>Duración: 4 horas</h9>
+                        <h9><i class='bx bxs-error'></i>Dificultad: Fácil</h9>
+                        <div class="link">
+                            <a href="#"> $11.900 </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Excursión #7 -->
+                <div class="carta">
+
+                    <!-- Imagen y titulo excursión 7 -->
+
+                    <div class="cara frente">
+                        <img src="imagenes/excursion7.png" alt="">
+                        <h8>Recorrido por Bodegas</h8>
+                    </div>
+
+                    <!-- Texto excursión 7 -->
+
+                    <div class="cara dorso">
+
+                        <h9>Recorrido por Bodegas</h9>
+                        <h9><i class='bx bx-alarm'></i>Duración: 5 horas</h9>
+                        <h9><i class='bx bxs-error'></i>Dificultad: Fácil</h9>
+                        <div class="link">
+                            <a href="#"> $11.200 </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Excursión #8 -->
+                <div class="carta">
+
+                    <!-- Imagen y titulo excursión 8 -->
+
+                    <div class="cara frente">
+                        <img src="imagenes/excursion8.png" alt="">
+                        <h8>Exc. Alta Montaña</h8>
+                    </div>
+
+                    <!-- Texto excursión 8 -->
+
+                    <div class="cara dorso">
+
+                        <h9>Exc. Alta Montaña</h9>
+                        <h9><i class='bx bx-alarm'></i>Duración: 12 horas</h9>
+                        <h9><i class='bx bxs-error'></i>Dificultad: Media</h9>
+                        <div class="link">
+                            <a href="#"> $20.200 </a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+        </section>
+
+        <!-- Sección Alojamientos -->
+        <section id="alojamientos">
+
+            <!-- Titulo -->
+            <h2>Alojamientos</h2>
+
+            <!-- Alojamiento 1 -->
+            <div class="contenedor-alojamiento">
+
+                <!-- Slider Alojamiento 1 -->
+                <div class="slider">
+                    <ul>
+                        <li><img src="imagenes/slide1.jpg"></li>
+                        <li><img src="imagenes/slide2.jpg"></li>
+                        <li><img src="imagenes/slide3.jpg"></li>
+                        <li><img src="imagenes/slide4.jpg"></li>
+                    </ul>                    
+                </div>
+
+                <!-- Texto Alojamiento 1 -->
+                <div class="parrafo-derecho">
+                    <h3>Cabaña Karüm</h3>
+                    <p>La Cabaña ofrece balcón y vistas al lago. Tiene terraza,     estacionamiento privado gratuito y wifi gratis. Cuenta con 2 dormitorios, sala de estar, cocina totalmente equipada con zona de comedor y baño con ducha. <br> <br>
+                    Para más información visite nuestras redes:</p>
+
+                    <!-- Redes Sociales -->
+                    <div class="redes-sociales">
+                        <a href="https://www.booking.com/hotel/ar/cabana-bella-vista.es-ar.html?aid=964694&app_hotel_id=9358597&checkin=2023-08-17&checkout=2023-08-18&from_sn=android&group_adults=4&group_children=0&label=hotel_details-mchsFE%401691509067&no_rooms=2&req_adults=4&req_children=0&room1=A%2CA%2CA%2CA"
+                            target="_blank"><i>B.</i></a>
+                        <a href="https://wa.me/5493541386349" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Alojamiento 2 -->
+            <div class="contenedor-alojamiento">
+
+                <!-- Texto Alojamiento 2 -->
+                <div class="parrafo-izquierdo">
+                    <h3>Cabaña "El tiempo de bienestar"</h3>
+                    <p>El Tiempo de Bienestar ofrece vistas al jardín, WiFi gratuita y aparcamiento privado gratuito. Cuenta con 2 dormitorios,  zona de comedor y cocina. Tiene su propia terraza y comparte un jardín. <br><br>
+                    Para más información visite nuestras redes:</p>
+
+                    <!-- Redes Sociales -->
+                    <div class="redes-sociales">
+                        <a href="https://www.booking.com/hotel/ar/cabana-bella-vista.es-ar.html?aid=964694&app_hotel_id=9358597&checkin=2023-08-17&checkout=2023-08-18&from_sn=android&group_adults=4&group_children=0&label=hotel_details-mchsFE%401691509067&no_rooms=2&req_adults=4&req_children=0&room1=A%2CA%2CA%2CA"
+                            target="_blank"><i>B.</i></a>
+                        <a href="https://wa.me/5493541386349" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+                    </div>
+                </div>
+
+                <!-- Slider Alojamiento 2 -->
+                <div class="slider">
+                    <ul>
+                        <li><img src="imagenes/slide5.jpg"></li>
+                        <li><img src="imagenes/slide6.jpg"></li>
+                        <li><img src="imagenes/slide7.jpg"></li>
+                        <li><img src="imagenes/slide8.jpg"></li>
+                    </ul>                    
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Sección Contacto -->
+        <section id="contacto">
+
+            <!-- Titulo -->
+            <h2>Contacto<i class='bx bx-envelope'></i></h2>
+
+            <div class="mapa">
+
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13391.955538467739!2d-69.21140522846974!3d-32.951302871533585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967dec31f509aa63%3A0x25784463ce0705!2sPotrerillos%2C%20Mendoza!5e0!3m2!1ses!2sar!4v1694545936560!5m2!1ses!2sar"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                <!-- Formulario -->
+                <form id="formulario" method="POST" action="#inicio">
+
+                    <div class="input-box">
+                        <input id="name" type="text" placeholder="Nombre y apellido*">
+                        <input id="e-mail" type="email" placeholder="Correo electrónico*">
+                    </div>
+                    <div class="input-box">
+                        <input id="telefono" type="number" placeholder="Teléfono*"
+                            onsubmit="return validarformulario()">
+                        <input id="asunto" type="texto" placeholder="Asunto*">
+                    </div>
+                    <textarea name="" id="msj" cols="30" rows="10" placeholder="Mensaje*"></textarea>
+                    <input type="submit" value="Enviar" name="btn" class="btn">
+                    <input type="reset" value="Borrar formulario" class="btn">
+                </form>
+
+            </div>
+
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <!-- Copyright -->
+            <h4>2023 Codo a Codo. Todos los derechos reservados. 😎</h4>
+
+            <!-- Boton a inicio -->
+            <a href="#inicio"><i class='bx bxs-chevrons-up'></i></a>
+        </footer>
+
+    </main>
+
+    <!-- JS Script -->
+    <script src="js/script.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</body>
+
+</html>

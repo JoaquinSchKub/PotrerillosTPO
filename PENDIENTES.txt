@@ -1,0 +1,10 @@
+Dejo aqui anotado lo que estaria faltando para terminar mas o menos: 
+
+1° Agragar la modificacion de los alojamientos.
+
+2° Armar el Carrusel en Javascript de Excursiones.
+
+3° Verificar el funcionamiento del Formulario y agregarle la parte de Javascript. 
+
+4° Ver el Nav o el logo ya que al scrollear se pierde con el fondo. 
+
